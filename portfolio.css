@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Tomatoes;
+    src: url(font/Tomatoes-O8L8.ttf);
+}
+@font-face {
+    font-family: Darlington;
+    src: url(font/DarlingtonDemo-z8xjG.ttf);
+}
+@font-face {
+    font-family: FeelFree;
+    src: url(font/FeelfreePersonalUseRegular-lg2Bw.ttf);
+}
+/*#white, #548579, #b7b9b0, #8d9d98, #d9dac8 
+https://colorkit.co/palette/fffefe-548579-b7b9b0-8d9d98-d9dac8/ */
+header{
+    background-image: url(banner.jpg);
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: #fffefe;
+    font-size: 40px;
+    margin-left: 15px;
+    font-family: Tomatoes, Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#menu{
+     position: relative;
+     top: 55px;
+     right: 5px;
+     
+}
+#menu a{
+    color: #fffefe;
+    font-size: 20px; 
+}
+
+body{
+    background-color: #8d9d98;
+}
+#presentation{
+    display: flex;
+    border: 10px solid #b7b9b0;
+    color: #fffefe;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+    
+}
+
+
+#photoPresentation{
+    flex-grow: 1;
+    max-width: 500px;
+    border: 5px solid #b7b9b0;
+    
+}
+
+#textPresentation{
+    flex-grow: 5;
+    border: 5px solid #b7b9b0;
+    padding: 10px;
+    color: #ecedde;
+
+}
+
+h2{
+    font-family: Tomatoes, Verdana, Geneva, Tahoma, sans-serif;
+    color: #fffefe;
+    font-size: 40px;
+}
+
+#textPresentation h3 {
+    text-align: center;
+}
+
+q{
+    font-family: FeelFree, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #fffefe;
+
+}
+
+#socialMedia{
+    display: flex;
+    justify-content: right;
+}
+
+#socialMedia img{
+    max-width: 70px;
+}
+
+#techno img{
+    max-height: 80px;
+}
+
+#techno{
+    background-image: url(banner.jpg);
+    padding: 15px;
+
+}
+
+#technoContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+h3,h4{
+    color: #fffefe;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h4{
+    margin: 10px;
+}
+
+#projetContainer {
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    flex-wrap: wrap;
+    
+}
+
+#projetContainer img{
+    max-width: 450px;
+
+}
+
+#projetSection{
+    border: 15px solid #b7b9b0;
+}
+
+footer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color:#b7b9b0 ;
+    text-align: right;
+}
