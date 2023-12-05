@@ -124,9 +124,28 @@ h4{
     
 }
 
-#projetContainer img{
+#projetContainer a{
     max-width: 50%;
+}
 
+#projetContainer a img{
+    max-width: 100%;
+}
+
+#projetContainer a img:hover{  
+    opacity: 50%;
+}
+
+#try{
+    position: relative;
+}
+#try img{
+    position: relative;
+    top: 0;
+}
+#try h5{
+    position: relative;
+    top: 0;
 }
 
 #projetSection{
