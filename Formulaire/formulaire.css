@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Tomatoes;
+    src: url(font/Tomatoes-O8L8.ttf);
+}
+@font-face {
+    font-family: Darlington;
+    src: url(font/DarlingtonDemo-z8xjG.ttf);
+}
+@font-face {
+    font-family: FeelFree;
+    src: url(font/FeelfreePersonalUseRegular-lg2Bw.ttf);
+}
+
+body{
+    background-color: #5f857b ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    
+}
+h1{
+    text-align: center;
+    font-family: Tomatoes, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(../banner.jpg);
+    font-size: 300%;
+}
+form label{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #8d9d98;
+    border: 10px solid #b7b9b0;
+    
+}
+
+.labelContainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 10px;
+
+}
+
+#adress, #message, .conditionUtilisation{
+    width: 90%;
+}
+
+input, textarea, select {
+    height: 40px;
+}
+
+.genre{
+    height: 15px;
+    align-content: center;
+}
+
+#genreContainer{
+    display: flex;
+    
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: #8d9d98;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+footer{
+    text-align: center;
+    background-image: url(../banner.jpg);
+}
+
+p{margin-left: 5%;}
+
+[placeholder]{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 1%;
+}
+
+textarea[placeholder]{
+    padding-left: 0.5%;
+    padding-top: 1%;
+}
+
