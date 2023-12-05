@@ -11,6 +11,12 @@
     src: url(font/FeelfreePersonalUseRegular-lg2Bw.ttf);
 }
 
+#menu a{
+   
+   color: #fffefe;
+   font-size: 20px; 
+}
+
 body{
     background-color: #5f857b ;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -65,6 +71,7 @@ input, textarea, select {
 }
 
 button {
+    align-self: center;
     border: none;
     color: white;
     background-color: #8d9d98;
@@ -75,9 +82,13 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    width: 10%;
   }
 
 footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     background-image: url(../banner.jpg);
 }
